@@ -7,40 +7,59 @@
     <title> сайт </title>
 </head>
 <body>
-    <p> <a name="top"></a> </p>
-    <p> <a href="#main">Главная </a> | <a href="#rules"> Правила </a> | <a href="#about">Обо мне </a>
-    | <a href="#contacts">Связаться со мной </a>   </p>
+    <a name="top"></a> <!-- убрать п -->
+    <nav> <a href="#main">Главная </a> | <a href="#rules"> Правила </a> | <a href="#about">Обо мне </a>
+    | <a href="#contacts">Связаться со мной </a> </nav> <!-- нав -->
+    <!--использовать айди-->
     <header>
-        <p> <a name="main"> </a></p>
+        <p> <a id="main"> </a> </p>
         <h1> добро пожаловать на мою страницу</h1>
         <p>
             <strong> эта страничка создана для эстетики! </strong>
         </p>
-            <img src="Maestro_s_bokalom.gif" alt="">
+        <div class="intro picture">
+            <img src="Maestro_s_bokalom.gif"
+                 alt="Понасенков с бокалом">
+        </div>
+        <!-- обрамить дивом, добавить альт-->
     </header>
+
     <main>
-        <p> <a name="rules"></a> </p>
+        <p> <a id="rules"></a> </p>
         <h2> всем хелоу </h2>
-        <h5> Правила этой странички </h5>
-        <ol> <strong>Можно:</strong>
-            <li><em>пиво</em> </li>
+
+        <section>
+        <p> Правила этой странички </p> <!-- лучше через п--> <!-- правила в отд секцию -->
+
+        <strong>Можно:</strong> <!-- вынести за пределы списка -->
+        <ol>
+            <li> <em>пиво</em> </li>
             <li> <em> приколы </em></li>
         </ol>
+
+        <strong> Нельзя: </strong>
         <ol>
-            <strong> Нельзя: </strong>
             <li> <em> остальное </em></li>
         </ol>
-        <p> <a name="about"> </a> </p>
+        </section>
+
+        <p> <a id="about"> </a> </p>
 
         <section>
             <h2>кратко обо мне</h2>
             <p>
                 Привет! Меня зовут Дина, мне 20 лет.
                 Учусь в ИТМО на ИТИПе на 3 курсе, работаю в Научном Центре Когнитивных Разработок продакт-менеджером,
-                руковожу студенческим клубом конфликтологии <i> ITMO Negotiations. </i> <br>
+                руковожу студенческим клубом конфликтологии <i> ITMO Negotiations. </i>  </p>
+            <p>
                 В свободное время стараюсь изучать что-то новое по работе, вижусь с друзьями, играю на фортепиано,
-                фотографирую на пленку и <b>бла бла бла</b>.
-            </p>
+                фотографирую на пленку и <b>бла бла бла</b>.</p>
+            <pre>
+                (\___/)
+                (='.'=)
+                (")_(")
+        </pre> <!-- закинуть в секцию -->
+                <!-- убрать бр, разбить на абзацы -->
         </section>
 
         <section>
@@ -76,40 +95,39 @@ public class IEntity {
                 <li> сырники </li>
                 <li> длинношерстных котов </li>
                 <li> пленочные фотографии </li>
-
-                <p>
-                    <b> Примеры фото</b> <br>
-                    <img src="1.JPG" width="300" height="200"> <img src="2.JPG" width="300" height="200"> <br>
-                    <img src="4.JPG" width="300" height="200"> <img src="6.JPG" width="300" height="200">
-                </p>
             </ul>
 
-            <h3> не менее рандомные вещи, которые я <b>не</b> люблю </h3>
+            <p> <!-- вытащить за пределы списка-->
+                <b> Примеры фото</b> <br>
+                <img src="1.JPG" width="300" height="200" alt="Первое фото"> <img src="2.JPG" width="300" height="200" alt="Второе фото"> <br>
+                <img src="4.JPG" width="300" height="200" alt="Третье фото"> <img src="6.JPG" width="300" height="200" alt="Четвертое фото">
+                <!-- сжать картинки -->
+            </p>
+
+            <h3> не менее рандомные вещи, которые я не люблю </h3> <!-- убрать жирное выделение-->
             <ul>
                 <li> изюм </li>
                 <li> аниме </li>
-                <li> <strong>физику </strong> </li> поскольку мне нужно использовать этот тег, приведу формулу E = mc<sup>2</sup>
                 <li> опаздывать</li>
+                <li> <strong>физику </strong> </li>
+                <p> поскольку мне нужно использовать этот тег, приведу формулу E = mc<sup>2</sup> </p>
+                <!-- ??? -->
             </ul>
         </section>
 
-        <pre>
-                (\___/)
-                (='.'=)
-                (")_(")
-        </pre>
         <section>
-            <p> <a name="contacts"> </a> </p>
+            <p> <a id="contacts"> </a> </p>
             <h3> связаться со мной </h3>
             <p> предпочтительно писать в телеграм :) <br>
-             <a href="https://vk.com/sultangirova">vk </a> | <a href="https://instagram.com/sultangirova/"> inst </a> |
-                <a href="https://t.me/sultangirova">tg </a> </p>
+             <a href="https://vk.com/sultangirova" target="_blank">vk </a> |
+                <a href="https://instagram.com/sultangirova/" target="_blank"> inst </a> |
+                <a href="https://t.me/sultangirova" target="_blank">tg </a> </p> <!-- открывать в новых вкладках-->
         </section>
     </main>
 
     <footer>
-        by Dina Sultangirova, september 2021
-        <p> <a href="#top">Наверх</a> </p>
+        <p> by Dina Sultangirova, september 2021 </p>
+        <a href="#top">Наверх</a>
     </footer>
 </body>
 </html>
