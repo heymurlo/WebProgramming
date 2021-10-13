@@ -5,7 +5,9 @@
     <meta name="keywords" content="визитка, персональная страница, портфолио">
     <meta name="description" content="Веб страничка студентки 3 курса ИТМО ИТиП Султангировой Дины">
     <title> сайт </title>
+    <link rel="stylesheet" href="outlines.css">
 </head>
+
 <body>
     <a name="top"></a> <!-- убрать п -->
     <nav> <a href="#main">Главная </a> | <a href="#rules"> Правила </a> | <a href="#about">Обо мне </a>
@@ -13,11 +15,11 @@
     <!--использовать айди-->
     <header>
         <p> <a id="main"> </a> </p>
-        <h1> добро пожаловать на мою страницу</h1>
+        <h1> добро пожаловать на мою страницу </h1>
         <p>
             <strong> эта страничка создана для эстетики! </strong>
         </p>
-        <div class="intro picture">
+        <div class="intro-picture">
             <img src="Maestro_s_bokalom.gif"
                  alt="Понасенков с бокалом">
         </div>
@@ -28,7 +30,7 @@
         <p> <a id="rules"></a> </p>
         <h2> всем хелоу </h2>
 
-        <section>
+        <section class="rules">
         <p> Правила этой странички </p> <!-- лучше через п--> <!-- правила в отд секцию -->
 
         <strong>Можно:</strong> <!-- вынести за пределы списка -->
@@ -45,7 +47,7 @@
 
         <p> <a id="about"> </a> </p>
 
-        <section>
+        <section class="aboutMe">
             <h2>кратко обо мне</h2>
             <p>
                 Привет! Меня зовут Дина, мне 20 лет.
@@ -84,7 +86,7 @@ public class IEntity {
             использовать принципы ООП.
         </aside>
 
-        <section>
+        <section class="favs">
             <h3>рандомные вещи которые я люблю </h3>
             <ul>
                 <li> свежие ароматы </li>
@@ -97,12 +99,14 @@ public class IEntity {
                 <li> пленочные фотографии </li>
             </ul>
 
-            <p> <!-- вытащить за пределы списка-->
-                <b> Примеры фото</b> <br>
-                <img src="1.JPG" width="300" height="200" alt="Первое фото"> <img src="2.JPG" width="300" height="200" alt="Второе фото"> <br>
-                <img src="4.JPG" width="300" height="200" alt="Третье фото"> <img src="6.JPG" width="300" height="200" alt="Четвертое фото">
-                <!-- сжать картинки -->
-            </p>
+                <p class="photos"> <!-- вытащить за пределы списка-->
+                    <b> Примеры фото</b> <br>
+                    <img src="1.JPG" width="300" height="200" alt="Первое фото"> <img src="2.JPG" width="300" height="200" alt="Второе фото"> <br>
+                    <img src="4.JPG" width="300" height="200" alt="Третье фото"> <img src="6.JPG" width="300" height="200" alt="Четвертое фото">
+                    <!-- сжать картинки -->
+                </p>
+
+
 
             <h3> не менее рандомные вещи, которые я не люблю </h3> <!-- убрать жирное выделение-->
             <ul>
@@ -115,13 +119,15 @@ public class IEntity {
             </ul>
         </section>
 
-        <section>
+        <section class="contactMe">
+        <!--<section>-->
             <p> <a id="contacts"> </a> </p>
             <h3> связаться со мной </h3>
             <p> предпочтительно писать в телеграм :) <br>
              <a href="https://vk.com/sultangirova" target="_blank">vk </a> |
                 <a href="https://instagram.com/sultangirova/" target="_blank"> inst </a> |
                 <a href="https://t.me/sultangirova" target="_blank">tg </a> </p> <!-- открывать в новых вкладках-->
+        <!--</section>-->
         </section>
     </main>
 
