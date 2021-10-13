@@ -1,0 +1,149 @@
+header{
+    background-color: #ee8cad;
+}
+
+nav {
+    background-color: #bba3aa;
+    font-size: 12pt;
+    font-family: monospace, Lobster, serif, Calibri;
+    text-align: center;
+    font-weight: normal;
+}
+
+header strong {
+    color: #705860;
+}
+
+body {
+    background-color: #ebd1d9;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 40px;
+    text-transform: lowercase;
+}
+
+.rules {
+    font-size: 12pt;
+    font-family: "Tempus Sans ITC", monospace, Serif;
+    font-weight: lighter;
+    color: black;
+    margin-left: 10pt;
+    white-space: normal;
+    line-height: revert;
+    text-transform: revert;
+    text-decoration: none;
+}
+
+.rules strong {
+    text-decoration: underline;
+}
+
+.aboutMe p {
+    font-size: 12pt;
+    font-family: SansSerif, Serif,
+            monospace, Lobster, Calibri;
+    text-align: left;
+    font-weight: initial;
+    margin-right: 200pt;
+    white-space: normal;
+    line-height: revert;
+    background-color: #705860;
+    color: papayawhip;
+    text-transform: none;
+}
+
+section.contactMe, footer {
+    background-color: #bba3aa;
+}
+
+* {
+    margin: 5pt
+}
+
+aside {
+    font-family: "Book Antiqua", Haettenschweiler, serif;
+    color: black;
+    margin-left: 10pt;
+    border-left: 1px solid black;
+    margin-right: 500pt;
+    padding-left: 10pt;
+    margin-bottom: 30pt;
+}
+
+.photos img{
+    filter: drop-shadow(20px 10px 4px grey);
+    padding-bottom: 10pt;
+    padding-top: 10pt;
+}
+
+.favs h3 {
+    color: white;
+    background-color: darkred;
+    font-size: 15pt;
+    font-family: monospace, "Vladimir Script", Gadugi, Verdana, serif;
+    text-align: left;
+    font-weight: bolder;
+    margin-right: 10pt;
+    margin-left: 10pt;
+    white-space: normal;
+    line-height: revert;
+    text-transform: none;
+
+}
+.favs {
+    color: red;
+    font-size: 10pt;
+    font-family: monospace, "Vladimir Script", Gadugi, Verdana, serif;
+    text-align: left;
+    font-weight: bolder;
+    margin-left: 10pt;
+    white-space: normal;
+    line-height: revert;
+    text-transform: none;
+}
+
+.photos b {
+    font-size: 12pt;
+    font-family: "Tempus Sans ITC", monospace, Serif;
+    font-weight: lighter;
+    color: white;
+    background-color: darkred;
+    margin-left: 10pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    white-space: normal;
+    line-height: 10pt;
+    text-align: center;
+}
+
+.intro-picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 0 1px black,
+    0 1px 1px black,
+    -1px 0 1px black,
+    0 -1px 1px black;
+}
+
+.contactMe h3 {
+    color: black;
+    font-size: 15pt;
+    font-family: monospace, "Vladimir Script", Gadugi, Verdana, serif;
+    text-align: left;
+    font-weight: lighter;
+    white-space: normal;
+    line-height: revert;
+    text-decoration: underline #ebd1d9;
+    text-transform: capitalize;
+}
+
+
