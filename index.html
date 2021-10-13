@@ -15,7 +15,7 @@
     <!--использовать айди-->
     <header>
         <p> <a id="main"> </a> </p>
-        <h1> добро пожаловать на мою страницу </h1>
+        <h1> добро пожаловать <br> на мою страницу </h1>
         <p>
             <strong> эта страничка создана для эстетики! </strong>
         </p>
@@ -64,7 +64,7 @@
                 <!-- убрать бр, разбить на абзацы -->
         </section>
 
-        <section>
+        <section class="code">
             <p> Кусок кода из моей лабораторной работы по ООП, класс, описывающий сущность. </p>
             <pre>
                 <code>
@@ -99,12 +99,26 @@ public class IEntity {
                 <li> пленочные фотографии </li>
             </ul>
 
-                <p class="photos"> <!-- вытащить за пределы списка-->
-                    <b> Примеры фото</b> <br>
-                    <img src="1.JPG" width="300" height="200" alt="Первое фото"> <img src="2.JPG" width="300" height="200" alt="Второе фото"> <br>
-                    <img src="4.JPG" width="300" height="200" alt="Третье фото"> <img src="6.JPG" width="300" height="200" alt="Четвертое фото">
+            <!--<p class="photos"> --><!-- вытащить за пределы списка-->
+              <p class="photos">  <b> Примеры фото</b> <br>
                     <!-- сжать картинки -->
-                </p>
+            </p>
+
+            <div class="first">
+                <img src="1.jpg" width="300" height="200" alt="Первое фото">
+            </div>
+
+            <div class="first">
+                <img src="2.jpg" width="300" height="200" alt="Второе фото">
+            </div>
+
+            <div class="third">
+                <img src="4.jpg" width="300" height="200" alt="Третье фото">
+            </div>
+
+            <div class="fourth">
+                <img src="6.jpg" width="300" height="200" alt="Четвертое фото">
+            </div>
 
 
 
