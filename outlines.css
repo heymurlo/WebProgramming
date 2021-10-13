@@ -4,14 +4,22 @@ header{
 
 nav {
     background-color: #bba3aa;
-    font-size: 12pt;
-    font-family: monospace, Lobster, serif, Calibri;
+    font-size: 1em;
+    font-family: Lobster, serif;
     text-align: center;
     font-weight: normal;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    word-spacing: 5em;
 }
 
 header strong {
     color: #705860;
+    font-size: 2em;
+    text-shadow: 1px 0 1px black,
+    0 1px 1px black,
+    -1px 0 1px black,
+    0 -1px 1px black;
 }
 
 body {
@@ -20,16 +28,18 @@ body {
 
 h1 {
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 5em;
     text-transform: lowercase;
+    letter-spacing: 0.01rem;
+    padding-bottom: 0.001em;
 }
 
 .rules {
-    font-size: 12pt;
-    font-family: "Tempus Sans ITC", monospace, Serif;
+    font-size: 1.5em;
+    font-family: "Tempus Sans ITC", monospace;
     font-weight: lighter;
     color: black;
-    margin-left: 10pt;
+    margin-left: 1em;
     white-space: normal;
     line-height: revert;
     text-transform: revert;
@@ -41,12 +51,11 @@ h1 {
 }
 
 .aboutMe p {
-    font-size: 12pt;
-    font-family: SansSerif, Serif,
-            monospace, Lobster, Calibri;
+    font-size: 1.5em;
+    font-family: SansSerif,monospace;
     text-align: left;
     font-weight: initial;
-    margin-right: 200pt;
+    margin-left: 2em;
     white-space: normal;
     line-height: revert;
     background-color: #705860;
@@ -54,48 +63,50 @@ h1 {
     text-transform: none;
 }
 
+.aboutMe pre {
+    text-align: center;
+}
+
+.code {
+    margin-left: 1.5em;
+}
+
 section.contactMe, footer {
     background-color: #bba3aa;
 }
 
-* {
-    margin: 5pt
-}
-
 aside {
-    font-family: "Book Antiqua", Haettenschweiler, serif;
+    font-family: "Book Antiqua", serif;
     color: black;
-    margin-left: 10pt;
+    margin-left: 1.5em;
     border-left: 1px solid black;
-    margin-right: 500pt;
-    padding-left: 10pt;
-    margin-bottom: 30pt;
+    margin-right: 5em;
+    padding-left: 1.5em;
+    margin-bottom: 3em;
+    word-spacing: 0.1em;
 }
 
-.photos img{
+div img{
     filter: drop-shadow(20px 10px 4px grey);
-    padding-bottom: 10pt;
-    padding-top: 10pt;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
 }
 
 .favs h3 {
     color: white;
     background-color: darkred;
-    font-size: 15pt;
-    font-family: monospace, "Vladimir Script", Gadugi, Verdana, serif;
+    font-size: 2em;
+    font-family: "Vladimir Script", Gadugi, serif;
     text-align: left;
     font-weight: bolder;
     margin-right: 10pt;
     margin-left: 10pt;
-    white-space: normal;
-    line-height: revert;
-    text-transform: none;
-
 }
+
 .favs {
     color: red;
     font-size: 10pt;
-    font-family: monospace, "Vladimir Script", Gadugi, Verdana, serif;
+    font-family: "Lucida Handwriting", serif;
     text-align: left;
     font-weight: bolder;
     margin-left: 10pt;
@@ -121,12 +132,10 @@ aside {
 .intro-picture img {
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    align-content: center;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 3em;
     color: white;
     text-shadow: 1px 0 1px black,
     0 1px 1px black,
@@ -136,14 +145,39 @@ h2 {
 
 .contactMe h3 {
     color: black;
-    font-size: 15pt;
-    font-family: monospace, "Vladimir Script", Gadugi, Verdana, serif;
+    font-size: 2em;
+    font-family: monospace;
     text-align: left;
     font-weight: lighter;
     white-space: normal;
     line-height: revert;
     text-decoration: underline #ebd1d9;
     text-transform: capitalize;
+}
+
+.contactMe {
+    font-size: 1em;
+    font-family: Calibri, monospace;
+    font-weight: inherit;
+    letter-spacing: 0.05em;
+}
+
+.contactMe p {
+    font-size: 0.8em;
+    font-family: Lobster, serif;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 0.5em;
+
+}
+
+footer {
+    font-family: Lobster, serif;
+    font-size: 0.85em;
+    text-align: right;
+    letter-spacing: 0.01em;
+    font-weight: bolder;
+
 }
 
 
