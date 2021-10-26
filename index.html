@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="визитка, персональная страница, портфолио">
-    <meta name="description" content="Веб страничка студентки 3 курса ИТМО ИТиП Султангировой Дины">
+    <meta name="description" content="жизнь надо жить пацаны">
     <title> сайт </title>
     <link rel="stylesheet" href="outlines.css">
 </head>
 
 <body>
-    <a name="top"></a> <!-- убрать п -->
-    <nav> <a href="#main">Главная </a> | <a href="#rules"> Правила </a> | <a href="#about">Обо мне </a>
-    | <a href="#contacts">Связаться со мной </a> </nav> <!-- нав -->
-    <!--использовать айди-->
+    <a name="top"></a>
+    <nav class="nav">
+        <ul>
+            <li> <a href="#main">Главная </a> </li>
+            <li> <a href="#rules"> Правила </a> </li>
+            <li> <a href="#about">Обо мне </a> </li>
+            <li> <a href="#contacts">Связаться со мной </a> </li>
+        </ul>
+    </nav> <!-- нав -->
+
     <header>
-        <p> <a id="main"> </a> </p>
-        <h1> добро пожаловать <br> на мою страницу </h1>
-        <p>
-            <strong> эта страничка создана для эстетики! </strong>
-        </p>
+        <div class="intro">
+            <p> <a id="main"> </a> </p>
+            <h1> добро пожаловать <br> на мою страницу </h1>
+            <p>
+                <strong> эта страничка создана для эстетики! </strong>
+            </p>
+        </div>
+
         <div class="intro-picture">
             <img src="Maestro_s_bokalom.gif"
                  alt="Понасенков с бокалом">
@@ -48,10 +57,10 @@
         <p> <a id="about"> </a> </p>
 
         <section class="aboutMe">
-            <h2>кратко обо мне</h2>
+            <h3>кратко обо мне</h3>
             <p>
                 Привет! Меня зовут Дина, мне 20 лет.
-                Учусь в ИТМО на ИТИПе на 3 курсе, работаю в Научном Центре Когнитивных Разработок продакт-менеджером,
+                Учусь в ИТМО на ИТИПе на 3 курсе, работаю в Национальном Центре Когнитивных Разработок продакт-менеджером,
                 руковожу студенческим клубом конфликтологии <i> ITMO Negotiations. </i>  </p>
             <p>
                 В свободное время стараюсь изучать что-то новое по работе, вижусь с друзьями, играю на фортепиано,
@@ -96,7 +105,7 @@ public class IEntity {
                 <li> сидеть у воды, наблюдать за утками</li>
                 <li> сырники </li>
                 <li> длинношерстных котов </li>
-                <li> пленочные фотографии </li>
+                <li> цветные колготки </li>
             </ul>
 
             <!--<p class="photos"> --><!-- вытащить за пределы списка-->
@@ -108,7 +117,7 @@ public class IEntity {
                 <img src="1.jpg" width="300" height="200" alt="Первое фото">
             </div>
 
-            <div class="first">
+            <div class="second">
                 <img src="2.jpg" width="300" height="200" alt="Второе фото">
             </div>
 
@@ -120,6 +129,14 @@ public class IEntity {
                 <img src="6.jpg" width="300" height="200" alt="Четвертое фото">
             </div>
 
+            <div class="fifth">
+                <img src="8.JPG" width="200" height="300" alt="Пятое фото">
+            </div>
+
+            <div class="sixth">
+                <img src="9.JPG" width="300" height="200" alt="Шестое фото">
+            </div>
+
 
 
             <h3> не менее рандомные вещи, которые я не люблю </h3> <!-- убрать жирное выделение-->
@@ -129,10 +146,11 @@ public class IEntity {
                 <li> опаздывать</li>
                 <li> <strong>физику </strong> </li>
                 <p> поскольку мне нужно использовать этот тег, приведу формулу E = mc<sup>2</sup> </p>
-                <!-- ??? -->
             </ul>
         </section>
+    </main>
 
+    <footer>
         <section class="contactMe">
         <!--<section>-->
             <p> <a id="contacts"> </a> </p>
@@ -143,10 +161,8 @@ public class IEntity {
                 <a href="https://t.me/sultangirova" target="_blank">tg </a> </p> <!-- открывать в новых вкладках-->
         <!--</section>-->
         </section>
-    </main>
 
-    <footer>
-        <p> by Dina Sultangirova, september 2021 </p>
+        <p class="signature"> by Dina Sultangirova, september 2021 </p>
         <a href="#top">Наверх</a>
     </footer>
 </body>
