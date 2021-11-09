@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>обо мне</title>
+        <meta name="description" content="обо мне">
+        <link rel="stylesheet" href="../styles/outlines.css">
+        <script src="../scripts/MyScript.js"> </script>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li> <a href="index.html">Главная </a> </li>
+            <li> <a href="rules.html"> Правила </a> </li>
+            <li> <a href="about.html" class="aboutPage"> Обо мне </a> </li>
+            <li> <a href="contact.html"> Связаться со мной </a> </li>
+        </ul>
+    </nav>
+
+    <p> <a id="about"> </a> </p>
+
+    <section class="aboutMe">
+        <h3>кратко обо мне</h3>
+        <p>
+            Привет! Меня зовут Дина, мне 20 лет.
+            Учусь в ИТМО на ИТИПе на 3 курсе, работаю в Национальном Центре Когнитивных Разработок продакт-менеджером,
+            руковожу студенческим клубом конфликтологии <i> ITMO Negotiations. </i>  </p>
+        <p>
+            В свободное время стараюсь изучать что-то новое по работе, вижусь с друзьями, играю на фортепиано,
+            фотографирую на пленку и <b>бла бла бла</b>.</p>
+        <pre>
+                (\___/)
+                (='.'=)
+                (")_(")
+        </pre> <!-- закинуть в секцию -->
+        <!-- убрать бр, разбить на абзацы -->
+    </section>
+
+    <section class="code">
+        <p> Кусок кода из моей лабораторной работы по ООП, класс, описывающий сущность. </p>
+        <pre>
+                <code>
+public class IEntity {
+
+    int Id = 0;
+
+    public int GetId() {
+        return Id;
+    }
+}
+                </code>
+            </pre>
+    </section>
+
+    <aside>
+        Суть лабораторной заключалась в том, чтобы реализовать механизм автоматизации отчетов о работе в команде.
+        Есть несколько сущностей - сотрудник, задача и отчет. Отчеты бывают за день и за спринт. В работе необходимо
+        использовать принципы ООП.
+    </aside>
+
+    <section class="favs">
+        <h3>рандомные вещи, которые я люблю </h3>
+        <ul>
+            <li> свежие ароматы </li>
+            <li> кашемир </li>
+            <li> белые ночи </li>
+            <li> черные вещи </li>
+            <li> сидеть у воды, наблюдать за утками</li>
+            <li> сырники </li>
+            <li> длинношерстных котов </li>
+            <li> цветные колготки </li>
+        </ul>
+
+        <!--<p class="photos"> --><!-- вытащить за пределы списка-->
+        <p class="photos">  <b> Примеры фото</b> <br>
+            <!-- сжать картинки -->
+        </p>
+
+        <div class="container">
+            <div class="first">
+                <img src="../images/1.jpg" width="300" height="200" alt="Первое фото">
+            </div>
+
+            <div class="second">
+                <img src="../images/2.jpg" width="300" height="200" alt="Второе фото">
+            </div>
+
+            <div class="third">
+                <img src="../images/4.jpg" width="300" height="200" alt="Третье фото">
+            </div>
+
+            <div class="fourth">
+                <img src="../images/6.jpg" width="300" height="200" alt="Четвертое фото">
+            </div>
+
+            <div class="fifth">
+                <img src="../images/8.JPG" width="200" height="300" alt="Пятое фото">
+            </div>
+
+            <div>
+                <img src="../images/mysh.gif" alt="пес">
+            </div>
+
+            <div class="sixth">
+                <img src="../images/9.JPG" width="300" height="200" alt="Шестое фото">
+            </div>
+
+
+        </div>
+
+
+        <h3> не менее рандомные вещи, которые я не люблю </h3>
+        <ul>
+            <li> изюм </li>
+            <li> аниме </li>
+            <li> опаздывать</li>
+            <li> <strong>физику </strong> </li>
+            <p> поскольку мне нужно использовать этот тег, приведу формулу E = mc<sup>2</sup> </p>
+        </ul>
+    </section>
+    </main>
+
+    <footer>
+        <p class="signature"> by Dina Sultangirova, september 2021 </p>
+    </footer>
+</body>
+</html>
