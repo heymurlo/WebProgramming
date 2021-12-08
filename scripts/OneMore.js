@@ -1,63 +1,85 @@
-function tryAddElement(event)
-{
-    if (event === 0) {
-        alert("aaa")
-    } else {
-        let tex = document.getElementById("form").value;
-        let element = makeElement(tex);
-        document.getElementById("todolist").appendChild(element);
-        dumpLines(document.getElementById("todolist"));
+const todoForm = document.querySelector('.main__todo-form');
+const todoInput = document.querySelector('.main__todo-input');
+const todoItemsList = document.querySelector('.main__todo-items');
 
-        document.getElementById("form").value = "";
-        event.stopPropagation();
+let todos = [];
+
+todoForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    addTodo(todoInput.value);
+});
+
+function addTodo(item) {
+    if (item !== '') {
+        const todo = {
+            id: Date.now(),
+            name: item,
+            completed: false
+        };
+
+        todos.push(todo);
+        addToLocalStorage(todos);
+        todoInput.value = '';
     }
-
 }
 
-function remove(obj)
-{
-    obj.parentNode.remove();
-    dumpLines(document.getElementById("todolist"));
-}
+function renderTodos(todos) {
+    todoItemsList.innerHTML = '';
 
-function dumpLines(div)
-{
-    let lines = [];
-    let child = null;
-    let ps = div.getElementsByClassName('task-text');
-    for (let i = 0; i < ps.length; i++)
-    {
-        child = ps[i];
-        lines.push(child.getElementsByTagName('P')[0].textContent);
-    }
-    window.localStorage.setItem("loc", JSON.stringify(lines));
-}
+    todos.forEach(function (item) {
+        const checked = item.completed ? 'checked' : null;
 
-function makeElement(tex)
-{
-    let element = document.getElementById('formtemp').content.cloneNode(true).childNodes[1];
-    element.getElementsByTagName('P')[0].textContent = tex;
-    return element;
-}
-
-function loadList()
-{
-    let div = document.getElementById("todolist");
-    if (div)
-    {
-        let element = null;
-        let list = JSON.parse(window.localStorage.getItem("loc"));
-        if (list)
-        {
-            for (let i = 0; i < list.length; i++) {
-                element = makeElement(list[i]);
-                div.appendChild(element);
-            }
+        const li = document.createElement('li');
+        // <li class="item"> </li>
+        li.setAttribute('class', 'item');
+        li.setAttribute('data-key', item.id);
+        if (item.completed === true) {
+            li.classList.add('checked');
         }
+
+        li.innerHTML = `<input type="checkbox" class="checkbox" ${checked}>${item.name}<button class="delete-button">X</button>`;
+        todoItemsList.append(li);
+    });
+
+}
+
+function addToLocalStorage(todos) {
+    localStorage.setItem('todos', JSON.stringify(todos));
+    renderTodos(todos);
+}
+
+function getFromLocalStorage() {
+    const reference = localStorage.getItem('todos');
+    if (reference) {
+        todos = JSON.parse(reference);
+        renderTodos(todos);
     }
 }
 
-window.addEventListener("load", function(event) {
-    loadList();
-    document.addEventListener("submit", tryAddElement);
+function toggle(id) {
+    todos.forEach(function (item) {
+        if (item.id === id) {
+            item.completed = !item.completed;
+        }
+    });
+    addToLocalStorage(todos);
+}
+
+function deleteTodo(id) {
+    todos = todos.filter(function (item) {
+        return item.id !== id;
+    });
+    addToLocalStorage(todos);
+}
+
+getFromLocalStorage();
+
+todoItemsList.addEventListener('click', function (event) {
+    if (event.target.type === 'checkbox') {
+        toggle(event.target.parentElement.getAttribute('data-key'));
+    }
+
+    if (event.target.classList.contains('delete-button')) {
+        deleteTodo(event.target.parentElement.getAttribute('data-key'));
+    }
 });

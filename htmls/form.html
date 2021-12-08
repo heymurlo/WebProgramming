@@ -74,21 +74,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>еще страница</title>
+  <title>делишки</title>
+  <link href="../styles/formOnly.css" rel="stylesheet">
   <link href="../styles/outlines.css" rel="stylesheet">
-  <link href="../styles/huinya.css" rel="stylesheet">
-  <script src="../scripts/MyScript.js"></script>
+  <script defer src="../scripts/OneMore.js"></script>
 </head>
 
-<nav class="nav">
-  <ul>
-    <li> <a type="menushka" name="main" href="../index.html">Главная </a> </li>
-    <li> <a type="menushka" name="rules" href="../htmls/rules.html"> Правила </a> </li>
-    <li> <a type="menushka" name="about" href="../htmls/about.html" > Обо мне </a> </li>
-    <li> <a type="menushka" name="contact" href="../htmls/contact.html"> Связаться со мной </a> </li>
-    <li> <a type="menushka" name="form" href="../htmls/form.html"> жопа) </a> </li>
-  </ul>
-</nav>
+
 <body>
 <header class="header">
   <style>
@@ -96,49 +88,33 @@
       background-color: transparent;
     }
   </style>
+
+  <nav class="nav">
+    <ul>
+      <li> <a type="menushka" name="main" href="../index.html">Главная </a> </li>
+      <li> <a type="menushka" name="rules" href="../htmls/rules.html"> Правила </a> </li>
+      <li> <a type="menushka" name="about" href="../htmls/about.html" > Обо мне </a> </li>
+      <li> <a type="menushka" name="contact" href="../htmls/contact.html"> Связаться со мной </a> </li>
+      <li> <a type="menushka" name="form" href="../htmls/form.html"> жопа) </a> </li>
+    </ul>
+  </nav>
 </header>
 
 <main>
 
-  <form class="create-task" onsubmit='return false;'>
-    <label for="form"></label><input name="text" type="text" required placeholder="ваша задача на сегодня" id="form">
-    <button type='submit'>добавить задачу </button>
-  </form>
-  <div id="todolist">
+  <div class="main__container">
+    <h1>страница для реально деловых и солидных</h1>
+
+    <form class="main__todo-form">
+      <label>
+        <input class="main__todo-input" type="text" placeholder="введите вашу задачу на сегодня">
+      </label>
+      <button class="main__add-button" type="submit">тык</button>
+    </form>
+
+    <ul class="main__todo-items"></ul>
   </div>
-  <template id="formtemp">
-    <div class="task-text">
-      <button type="button" onclick="remove(this)">снять задачу</button>
-      <p></p>
-    </div>
-  </template>
 
-  <template id="template-row">
-    <div class="random-user__data table__row">
-      <div class="random-user__data table__cell userId"></div>
-      <div class="random-user__data table__cell id"></div>
-      <div class="random-user__data table__cell title"></div>
-      <div class="random-user__data table__cell body"></div>
-    </div>
-  </template>
-
-
-  <section class="random-user">
-    <h2 class="article__header mock-header">случайные переписки</h2>
-    <div class="random-user__loader"></div>
-    <button class="random-user__button"> новая подборка </button>
-    <div class="random-user__table table">
-      <div class="random-user__data random-user__data_header table__row">
-        <div class="random-user__data random-user__data_header table__cell">User ID</div>
-        <div class="random-user__data random-user__data_header table__cell">Post ID</div>
-        <div class="random-user__data random-user__data_header table__cell">Title</div>
-        <div class="random-user__data random-user__data_header table__cell">Body</div>
-      </div>
-    </div>
-    <p class="random-user__error">&#9888; Oops! Something went wrong. &#9888;</p>
-  </section>
-</main>
-<script src="../scripts/request.js"></script>
 <footer>
   <p class="signature"> by Dina Sultangirova, september 2021 </p>
 </footer>
