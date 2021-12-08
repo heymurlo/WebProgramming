@@ -1,0 +1,42 @@
+
+
+
+form input
+{
+    margin-left: 2em;
+    width: 50%;
+}
+
+#form {
+    width: 15em;
+    height: 2em;
+}
+
+button
+{
+    margin: 1.5em;
+    padding: 5px;
+}
+
+.task-text {
+    font-family: monospace;
+    display: flex;
+    flex-direction:row;
+    border: solid 0.1em #9E5D73 ;
+    border-radius: 0.3rem;
+    margin-left: 28px;
+    margin-bottom: 5px;
+}
+
+.task-text button {
+    background-color: #9E5D73;
+    color: #ffffff ;
+    height: 1.8rem;
+    margin-top: 12px;
+    padding: 5px;
+}
+
+.adding-button {
+    margin-bottom: 3em;
+    width: 5em;
+}
