@@ -1,42 +1,90 @@
-
-
-
-form input
-{
-    margin-left: 2em;
-    width: 50%;
+h2 {
+    font-size: 2em;
+    text-align: center;
 }
 
-#form {
-    width: 15em;
-    height: 2em;
+ul {
+    list-style-type: none;
 }
 
-button
-{
-    margin: 1.5em;
-    padding: 5px;
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.task-text {
-    font-family: monospace;
+.main {
     display: flex;
-    flex-direction:row;
-    border: solid 0.1em #9E5D73 ;
-    border-radius: 0.3rem;
-    margin-left: 28px;
-    margin-bottom: 5px;
+    justify-content: center;
 }
 
-.task-text button {
+button:hover {
+    cursor: pointer;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+.main__todo-form {
+    margin: 3em 0;
+}
+
+.main__todo-input {
+    border-radius: 1.5em;
+    padding: 1.5em;
+    margin-right: 1em;
+    font-size: 1em;
+    width: 20em;
+}
+
+.main__add-button {
     background-color: #9E5D73;
-    color: #ffffff ;
-    height: 1.8rem;
-    margin-top: 12px;
-    padding: 5px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0.5em;
+    padding: 0.8em;
+    font-size: 1.5em;
 }
 
-.adding-button {
-    margin-bottom: 3em;
-    width: 5em;
+.main__todo-items {
+    min-width: 100%;
+}
+
+.item {
+    background-color: #fff;
+    padding: 1.5vh;
+    font-size: 2.8vh;
+}
+
+.item:first-child {
+    border-top-left-radius: 0.1em;
+    border-top-right-radius: 0.1em;
+}
+
+.item:last-child {
+    border-bottom-left-radius: 0.1em;
+    border-bottom-right-radius: 0.1em;
+}
+
+.checkbox {
+    margin-right: 0.8em;
+}
+
+.delete-button {
+    float: right;
+    background-color: #C97792;
+    border: none;
+    outline: none;
+    padding: 0.2em 0.5em;
+    margin-left: 0.5em;
+    font-size: 2.8vh;
+}
+
+.checked {
+    text-decoration: line-through;
 }
