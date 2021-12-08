@@ -12,15 +12,18 @@
 <body>
     <nav class="nav">
         <ul>
-            <li> <a href="#main" class="mainPage">Главная </a> </li>
-            <li> <a href="htmls/rules.html"> Правила </a> </li>
-            <li> <a href="htmls/about.html" > Обо мне </a> </li>
-            <li> <a href="htmls/contact.html"> Связаться со мной </a> </li>
+            <li> <a type="menushka" name="main" href="index.html">Главная </a> </li>
+            <li> <a type="menushka" name="rules" href="htmls/rules.html"> Правила </a> </li>
+            <li> <a type="menushka" name="about" href="htmls/about.html" > Обо мне </a> </li>
+            <li> <a type="menushka" name="contact" href="htmls/contact.html"> Связаться со мной </a> </li>
+            <li> <a type="menushka" name="form" href="htmls/form.html"> жопа) </a> </li>
         </ul>
     </nav>
 
 
     <header>
+        <div class="flex1">
+
         <div class="intro">
             <p> <a id="main"> </a> </p>
             <h1> добро пожаловать <br> на мою страницу </h1>
@@ -33,6 +36,7 @@
             <img src="images/Maestro_s_bokalom.gif"
                  alt="Понасенков с бокалом">
         </div>
+        </div>
         <!-- обрамить дивом, добавить альт-->
     </header>
 
@@ -42,3 +46,22 @@
     </footer>
 </body>
 </html>
+
+<!--
+исправить навигацию
+1. header - nav, структура h, m, f
+2. медиа запросы, менять положение флота
+интро убрать фиксированную ширину, высоту
+3. float убрать
+4. прокрутку убрать
+5. флекс на навигацию, работает только с юл, флекс повесить на юл, flex wrap, нефиксированная высота навигации
+justify cont: center, padding-left 0
+6. margin для фото, чтобы не сжимались
+7. padding сверху снизу для стр обо мне.
+8. несколько дивов собрать в одиг -> таблица с гридом
+9. footer fixed
+10. текущий элемент подсвечивать через скрипт, пройтись по ссылкам, если равны, то выделить ее
+
+-->
+
+<!-- структура страницы не соблюдена -->
