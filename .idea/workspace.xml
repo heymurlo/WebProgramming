@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2273b3bb-da70-4f3d-9047-6c14be674fa4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmls/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmls/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmls/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmls/req.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmls/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmls/todo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/MyScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/MyScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/OneMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/OneMore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/formOnly.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/formOnly.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/huinya.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/huinya.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/outlines.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/outlines.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1yBD8NMi0HSk5DPtGbqtxifDQpE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dina\WebstormProjects\untitled" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dina\WebstormProjects\untitled" />
+      <recent name="C:\Users\dina\WebstormProjects\untitled\scripts" />
+      <recent name="C:\Users\dina\WebstormProjects\untitled\styles" />
+      <recent name="C:\Users\dina\WebstormProjects\untitled\images" />
+      <recent name="C:\Users\dina\WebstormProjects\untitled\htmls" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="gallery.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/gallery.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.gallery.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2273b3bb-da70-4f3d-9047-6c14be674fa4" name="Changes" comment="" />
+      <created>1631715934612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631715934612</updated>
+      <workItem from="1631715936161" duration="754000" />
+      <workItem from="1631900468117" duration="7803000" />
+      <workItem from="1632067880696" duration="7769000" />
+      <workItem from="1632229403826" duration="2627000" />
+      <workItem from="1632577247613" duration="6745000" />
+      <workItem from="1632742614254" duration="5719000" />
+      <workItem from="1632851194774" duration="4640000" />
+      <workItem from="1632899890476" duration="5876000" />
+      <workItem from="1633546487859" duration="65000" />
+      <workItem from="1633546630476" duration="176000" />
+      <workItem from="1633793860089" duration="2316000" />
+      <workItem from="1634049290938" duration="5494000" />
+      <workItem from="1634109981247" duration="7921000" />
+      <workItem from="1634122668336" duration="4890000" />
+      <workItem from="1634129769023" duration="566000" />
+      <workItem from="1635183822468" duration="11085000" />
+      <workItem from="1635244703494" duration="10600000" />
+      <workItem from="1635357009771" duration="127000" />
+      <workItem from="1635590865182" duration="132000" />
+      <workItem from="1636373301744" duration="13218000" />
+      <workItem from="1636472083229" duration="7252000" />
+      <workItem from="1636533618346" duration="4827000" />
+      <workItem from="1636543383716" duration="160000" />
+      <workItem from="1637684498896" duration="8103000" />
+      <workItem from="1637959734346" duration="4321000" />
+      <workItem from="1638216641275" duration="650000" />
+      <workItem from="1638374604597" duration="12254000" />
+      <workItem from="1638720155963" duration="6933000" />
+      <workItem from="1638820601463" duration="2237000" />
+      <workItem from="1638862518042" duration="1610000" />
+      <workItem from="1638884451583" duration="12784000" />
+      <workItem from="1638953267373" duration="4928000" />
+      <workItem from="1639228601094" duration="964000" />
+      <workItem from="1639482420391" duration="9606000" />
+      <workItem from="1639518810192" duration="4169000" />
+      <workItem from="1639560604590" duration="3092000" />
+      <workItem from="1639645012358" duration="654000" />
+      <workItem from="1639778116583" duration="2313000" />
+      <workItem from="1639837471417" duration="10979000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
