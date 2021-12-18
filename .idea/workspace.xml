@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2273b3bb-da70-4f3d-9047-6c14be674fa4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmls/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmls/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmls/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmls/req.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmls/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/rules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmls/todo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/MyScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/MyScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/OneMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/OneMore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/formOnly.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/formOnly.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/huinya.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/huinya.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/outlines.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/outlines.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-    </list>
+    <list default="true" id="2273b3bb-da70-4f3d-9047-6c14be674fa4" name="Changes" comment="feat: test version 1.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +115,7 @@
       <workItem from="1639560604590" duration="3092000" />
       <workItem from="1639645012358" duration="654000" />
       <workItem from="1639778116583" duration="2313000" />
-      <workItem from="1639837471417" duration="10979000" />
+      <workItem from="1639837471417" duration="11956000" />
     </task>
     <servers />
   </component>
@@ -150,5 +133,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: test version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: test version 1.0" />
   </component>
 </project>
