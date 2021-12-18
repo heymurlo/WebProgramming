@@ -1,0 +1,40 @@
+.container{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.table{
+    justify-self: left;
+    border-collapse: collapse;
+    padding-bottom: 5em;
+}
+
+.table caption {
+    font-size: 2em;
+    text-align: center;
+    justify-self: auto;
+    padding: 10px;
+    color: black;
+    background: ghostwhite;
+}
+.table th, .table td{
+    text-align: center;
+    padding: 1em;
+}
+
+.table th{
+    color: white;
+}
+
+.table tr:nth-child(even){
+    background-color: white;
+}
+
+.table th:nth-child(odd){
+    background-color: grey;
+}
+
+.table th:nth-child(even){
+    background-color: grey;
+}
+
