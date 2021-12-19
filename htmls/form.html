@@ -1,74 +1,3 @@
-<!--<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8" name="main page" content="information about me">
-  <title>уф еще страничбка</title>
-  <link rel="stylesheet" href="../styles/outlines.css">
-  <link rel="stylesheet" href="../styles/formOnly.css">
-  <script src="../scripts/MyScript.js"></script>
-  <script src="../scripts/OneMore.js"></script>
-  <script src="../scripts/request.js"></script>
-</head>
-
-<body>
-<nav class="nav">
-  <ul>
-    <li> <a type="menushka" name="main" href="../index.html">Главная </a> </li>
-    <li> <a type="menushka" name="rules" href="../htmls/rules.html"> Правила </a> </li>
-    <li> <a type="menushka" name="about" href="../htmls/about.html" > Обо мне </a> </li>
-    <li> <a type="menushka" name="contact" href="../htmls/contact.html"> Связаться со мной </a> </li>
-    <li> <a type="menushka" name="form" href="../htmls/form.html"> жопа) </a> </li>
-  </ul>
-</nav>
-
-<header>
-  <h3> новая лаба - новая страничбка</h3>
-</header>
-<main>
-  <form class="create-task" onsubmit='return false;'>
-    <label for="form"></label><input name="text" type="text" required placeholder="ваша задача на сегодня" id="form">
-    <button type='submit'>добавить задачу </button>
-  </form>
-  <div id="todolist">
-  </div>
-  <template id="formtemp">
-    <div class="task-text">
-      <button type="button" onclick="remove(this)">снять задачу</button>
-      <p></p>
-    </div>
-  </template>
-
-  <template id="template-row">
-    <div class="random-user__data table__row">
-      <div class="random-user__data table__cell userId"></div>
-      <div class="random-user__data table__cell id"></div>
-      <div class="random-user__data table__cell title"></div>
-      <div class="random-user__data table__cell body"></div>
-    </div>
-  </template>
-
-  <section class="random-user">
-    <h2 class="article__header">Mock данные случайных сообщений</h2>
-    <div class="random-user__loader"></div>
-    <button class="random-user__button" onclick="shuffle(this)">Shuffle</button>
-    <div class="random-user__table table">
-      <div class="random-user__data random-user__data_header table__row">
-        <div class="random-user__data random-user__data_header table__cell">User ID</div>
-        <div class="random-user__data random-user__data_header table__cell">Post ID</div>
-        <div class="random-user__data random-user__data_header table__cell">Title</div>
-        <div class="random-user__data random-user__data_header table__cell">Body</div>
-      </div>
-    </div>
-    <p class="random-user__error">&#9888; Oops! Something went wrong. &#9888;</p>
-  </section>
-
-</main>
-<footer>
-  <p class="signature"> by Dina Sultangirova, september 2021 </p>
-</footer>
-</body>
-</html>-->
-
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -77,43 +6,61 @@
   <title>делишки</title>
   <link href="../styles/formOnly.css" rel="stylesheet">
   <link href="../styles/outlines.css" rel="stylesheet">
-  <script defer src="../scripts/OneMore.js"></script>
+  <script src="../scripts/activeMenu.js"> </script>
+  <script src="../scripts/MyScript.js"></script>
+  <script src="../scripts/OneMore.js"></script>
+  <link href="/styles/huinya.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="/scripts/request.js"></script>
 </head>
 
 
-<body>
-<header class="header">
-  <style>
-    header {
-      background-color: transparent;
-    }
-  </style>
+<body class="main">
 
+<header id="header">
   <nav class="nav">
     <ul>
-      <li> <a type="menushka" name="main" href="../index.html">Главная </a> </li>
-      <li> <a type="menushka" name="rules" href="../htmls/rules.html"> Правила </a> </li>
-      <li> <a type="menushka" name="about" href="../htmls/about.html" > Обо мне </a> </li>
-      <li> <a type="menushka" name="contact" href="../htmls/contact.html"> Связаться со мной </a> </li>
-      <li> <a type="menushka" name="form" href="../htmls/form.html"> жопа) </a> </li>
+      <li><a href="../index.html" class="menu">Главная</a></li>
+      <li><a href="../htmls/rules.html" class="menu">Правила</a></li>
+      <li><a href="../htmls/about.html" class="menu">Обо мне</a></li>
+      <li><a href="../htmls/contact.html" class="menu">Связаться со мной</a></li>
+      <li><a href="../htmls/form.html" class="menu">жопа)</a></li>
     </ul>
   </nav>
 </header>
 
 <main>
 
-  <div class="main__container">
-    <h1>страница для реально деловых и солидных</h1>
-
-    <form class="main__todo-form">
-      <label>
-        <input class="main__todo-input" type="text" placeholder="введите вашу задачу на сегодня">
-      </label>
-      <button class="main__add-button" type="submit">тык</button>
+  <h1>
+    страница для реально деловых и солидных
+  </h1>
+  <div class="form-container">
+    <form class="create-task" onsubmit='return false;'>
+      <button type='submit'>тык</button>
+      <label for="form"></label><input name="text" type="text" required placeholder="ваша задача на сегодня" id="form">
     </form>
-
-    <ul class="main__todo-items"></ul>
+    <div id="todolist">
+    </div>
+    <template id="formtemp">
+      <div class="task-text">
+        <button type="button" onclick="Delete(this)">Х</button>
+        <p></p>
+      </div>
+    </template>
   </div>
+
+  <h1>заголовок хэ один</h1>
+
+  <div class="main__gallery">
+    <div class="main__loader">
+      <img src="../tantsuyuschiy_kot.gif"/>
+    </div>
+
+    <button class="main__more">загрузить еще штучки</button>
+
+  </div>
+
+</main>
 
 <footer>
   <p class="signature"> by Dina Sultangirova, september 2021 </p>
