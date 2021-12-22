@@ -21,3 +21,10 @@
     height: auto;
 }
 
+svg {
+    color: #9E5D73;
+}
+
+.main-carousel button {
+    background: #ebd1d9;
+}
