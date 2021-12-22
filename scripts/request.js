@@ -1,11 +1,3 @@
-function sleep(milliseconds) {
-    const date = Date.now();
-    let currentDate = null;
-    do {
-        currentDate = Date.now();
-    } while (currentDate - date < milliseconds);
-}
-
 function addPhoto(title, thumb, url) {
     const img = document.createElement('img');
     img.src = thumb;
@@ -18,7 +10,7 @@ function addPhoto(title, thumb, url) {
 function addPage(currentPage) {
     document.querySelector('.main__loader').setAttribute('style', 'display: inline;');
 
-    fetch('https://jsonplaceholder.typicode.com/photos?_limit=8&_page=' + currentPage)
+    fetch('https://jsonplaceholder.typicode.com/photos?_limit=5&_page=' + currentPage)
         .then(response => response.json())
         .then(data => {
                 for (let item of data) {

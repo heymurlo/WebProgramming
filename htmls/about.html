@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8">
-        <title>обо мне</title>
-        <meta name="description" content="обо мне">
-        <link rel="stylesheet" href="../styles/outlines.css">
-        <script src="../scripts/MyScript.js"> </script>
+    <meta charset="UTF-8">
+    <title>обо мне</title>
+    <meta name="description" content="обо мне">
+    <link rel="stylesheet" href="../styles/outlines.css">
+    <script src="../scripts/MyScript.js"> </script>
+    <script src="../scripts/activeMenu.js"> </script>
 </head>
 <body>
+<header id="header">
     <nav class="nav">
         <ul>
-            <li> <a type="menushka" name="main" href="../index.html">Главная </a> </li>
-            <li> <a type="menushka" name="rules" href="../htmls/rules.html"> Правила </a> </li>
-            <li> <a type="menushka" name="about" href="../htmls/about.html" > Обо мне </a> </li>
-            <li> <a type="menushka" name="contact" href="../htmls/contact.html"> Связаться со мной </a> </li>
-            <li> <a type="menushka" name="form" href="../htmls/form.html"> жопа) </a> </li>
+            <li><a href="../index.html" class="menu">Главная</a></li>
+            <li><a href="../htmls/rules.html" class="menu">Правила</a></li>
+            <li><a href="../htmls/about.html" class="menu">Обо мне</a></li>
+            <li><a href="../htmls/contact.html" class="menu">Связаться со мной</a></li>
+            <li><a href="../htmls/form.html" class="menu">жопа)</a></li>
         </ul>
     </nav>
+</header>
 
-    <p> <a id="about"> </a> </p>
-
+<main>
     <section class="aboutMe">
         <h3>кратко обо мне</h3>
         <p>
@@ -117,10 +119,10 @@ public class IEntity {
             <p> поскольку мне нужно использовать этот тег, приведу формулу E = mc<sup>2</sup> </p>
         </ul>
     </section>
-    </main>
+</main>
 
-    <footer>
-        <p class="signature"> by Dina Sultangirova, september 2021 </p>
-    </footer>
+<footer>
+    <p class="signature"> by Dina Sultangirova, september 2021 </p>
+</footer>
 </body>
 </html>

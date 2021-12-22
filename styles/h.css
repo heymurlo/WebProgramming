@@ -1,0 +1,37 @@
+body {
+    margin-bottom: 10vh;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.main__loader, .fa {
+    margin: 2vh;
+    text-align: center;
+}
+
+.main__loader #img {
+    width: 5em;
+    height: 5em;
+}
+
+.main__gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2vh;
+    padding: 1.5vh;
+}
+
+.main__more {
+    background-color: #9E5D73;
+    font-size: 3.5vh;
+    padding: 3vh;
+    text-align: center;
+}

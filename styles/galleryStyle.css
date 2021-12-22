@@ -1,0 +1,23 @@
+.content {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.main-carousel {
+    top: 0;
+    left: 0;
+}
+
+.main-carousel img {
+    width: 30em;
+    height: 40em;
+}
+
+.main-carousel img {
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: auto;
+}
+

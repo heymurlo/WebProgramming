@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2273b3bb-da70-4f3d-9047-6c14be674fa4" name="Changes" comment="feat: test version 2.0">
+    <list default="true" id="2273b3bb-da70-4f3d-9047-6c14be674fa4" name="Changes" comment="feat: activeMenu.js added">
+      <change afterPath="$PROJECT_DIR$/htmls/lab7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/galleryStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/h.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/tableStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmls/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmls/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmls/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmls/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/MyScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/MyScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/OneMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/OneMore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/formOnly.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/formOnly.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/huinya.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/outlines.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/outlines.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,8 +59,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node_modules/npm/package.json" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -51,8 +71,8 @@
       <recent name="C:\Users\dina\WebstormProjects\untitled" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dina\WebstormProjects\untitled" />
       <recent name="C:\Users\dina\WebstormProjects\untitled\scripts" />
+      <recent name="C:\Users\dina\WebstormProjects\untitled" />
       <recent name="C:\Users\dina\WebstormProjects\untitled\styles" />
       <recent name="C:\Users\dina\WebstormProjects\untitled\images" />
       <recent name="C:\Users\dina\WebstormProjects\untitled\htmls" />
@@ -65,6 +85,19 @@
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../../../../Program Files/nodejs/node_modules/npm/package.json" />
+      <command value="start" />
+      <node-interpreter value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.gallery.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="npm.start" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
@@ -119,7 +152,11 @@
       <workItem from="1639645012358" duration="654000" />
       <workItem from="1639778116583" duration="2313000" />
       <workItem from="1639837471417" duration="12576000" />
-      <workItem from="1639872452151" duration="1116000" />
+      <workItem from="1639872452151" duration="2961000" />
+      <workItem from="1639926033330" duration="15342000" />
+      <workItem from="1640009812164" duration="7116000" />
+      <workItem from="1640118965105" duration="2611000" />
+      <workItem from="1640156380348" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="feat: test version 1.0">
       <created>1639871774524</created>
@@ -135,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639871914126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: activeMenu.js added">
+      <created>1639873702384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639873702384</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +200,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: test version 1.0" />
     <MESSAGE value="feat: test version 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: test version 2.0" />
+    <MESSAGE value="feat: activeMenu.js added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: activeMenu.js added" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
