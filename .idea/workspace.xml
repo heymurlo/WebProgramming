@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2273b3bb-da70-4f3d-9047-6c14be674fa4" name="Changes" comment="added 6 7">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="2273b3bb-da70-4f3d-9047-6c14be674fa4" name="Changes" comment="forgotten picture">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmls/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmls/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/galleryStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/galleryStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/h.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/h.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +48,7 @@
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="C:\Users\dina\WebstormProjects\untitled\project\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -65,18 +63,42 @@
       <recent name="C:\Users\dina\WebstormProjects\untitled\htmls" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="npm.start">
     <configuration name="gallery.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/gallery.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="prebuild" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/project/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prebuild" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/../../../../Program Files/nodejs/node_modules/npm/package.json" />
-      <command value="start" />
-      <node-interpreter value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
-      <package-manager value="npm" />
+      <package-json value="$PROJECT_DIR$/project/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs>
+        <env name="PORT" value="80" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/project/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
@@ -84,9 +106,13 @@
       <item itemvalue="JavaScript Debug.gallery.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="npm.start" />
+      <item itemvalue="npm.prebuild" />
+      <item itemvalue="npm.start:dev" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.prebuild" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.gallery.html" />
       </list>
@@ -143,7 +169,12 @@
       <workItem from="1639926033330" duration="15342000" />
       <workItem from="1640009812164" duration="7116000" />
       <workItem from="1640118965105" duration="2611000" />
-      <workItem from="1640156380348" duration="11248000" />
+      <workItem from="1640156380348" duration="12087000" />
+      <workItem from="1646645745342" duration="41000" />
+      <workItem from="1646820144196" duration="6249000" />
+      <workItem from="1646912711475" duration="8978000" />
+      <workItem from="1648028780880" duration="930000" />
+      <workItem from="1648065063787" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="feat: test version 1.0">
       <created>1639871774524</created>
@@ -180,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640163594281</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="error processing fixed, arrow style changed">
+      <created>1640178882476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640178882476</updated>
+    </task>
+    <task id="LOCAL-00007" summary="forgotten picture">
+      <created>1640179014066</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640179014066</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +248,9 @@
     <MESSAGE value="feat: test version 2.0" />
     <MESSAGE value="feat: activeMenu.js added" />
     <MESSAGE value="added 6 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 6 7" />
+    <MESSAGE value="error processing fixed, arrow style changed" />
+    <MESSAGE value="forgotten picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgotten picture" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
